@@ -1,0 +1,34 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "jest bot.test.js --runInBand --forceExit"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.8.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.3",
+    "connect-mongodb-session": "^2.0.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "express-validator": "^6.3.1",
+    "generate-password": "^1.4.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.4.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1",
+    "ts-jest": "^26.4.4"
+  }
+}
